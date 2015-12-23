@@ -2,8 +2,7 @@
   (:require [manifold
              [deferred :as d]
              [stream :as s]])
-  (:import clojure.lang.IDeref
-           java.io.Writer))
+  (:import clojure.lang.IDeref))
 
 (deftype AsyncAgent [state update-stream]
   IDeref
