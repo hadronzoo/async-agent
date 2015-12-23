@@ -3,6 +3,8 @@
 Provides asynchronous [agents](http://clojure.org/agents) using 
 [Manifold](https://github.com/ztellman/manifold).
 
+![Clojars Project](http://clojars.org/com.joshuagriffith/async-agent/latest-version.svg)
+
 ## Usage
 
 Create an asynchronous agent:
