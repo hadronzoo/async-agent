@@ -14,6 +14,12 @@ Create an asynchronous agent:
 (def val (a/async-agent 42))
 ```
 
+Asynchronous agents also optionally take a queue buffer size:
+
+```clj
+(def val (a/async-agent 42 2))
+```
+
 Asynchronous agents return a 
 [Manifold deferred](https://github.com/ztellman/manifold/blob/master/docs/deferred.md) 
 representing the value of the agent after the operation has been completed:
